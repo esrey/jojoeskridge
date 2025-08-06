@@ -3,74 +3,89 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Fonts - Tangerine -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <title>Jojo's Wellness Oasis</title>
+
+    <style>
+      body {
+        font-family: 'Tangerine', serif;
+        font-size: 48px;
+        text-shadow: 4px 4px 4px #aaa;
+      }
+
+      /* Corrected CSS for the ID selector */
+      #3rdEye {
+        font-family: 'Tangerine', cursive; /* Added a generic fallback font */
+      }
+    </style>
+  </head>
+  <body>
     <!-- As a heading -->
-  <nav class="navbar bg-light">
-    <div class="container-fluid">
-      <span class="navbar-brand mb-0 h1">Jojo's Wellness Oasis</span>
-    </div>
-  </nav>
-<!-- IDEA: product 1 -->
-  <div class="col">
+    <nav class="navbar bg-light">
+      <div class="container-fluid">
+        <!-- Removed incorrect <id> tag, id attribute is part of span -->
+        <span class="navbar-brand mb-0 h1" id="3rdEye">Jojo's Wellness Oasis</span>
+      </div>
+    </nav>
+
+    <div class="container mt-4"> <!-- Added a container for proper spacing -->
+      <div class="row row-cols-1 row-cols-md-3 g-4"> <!-- Bootstrap grid for cards -->
+
+        <!-- Product 1 -->
+        <div class="col">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
             <div class="card-body">
-              <p class="card-text">Massage Therapy
-              </p>
+              <p class="card-text">Massage Therapy</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">Bookings</button>
-
-
+                </div>
               </div>
             </div>
           </div>
         </div>
-    <div class="container-fluid">
 
-    </div>
-  </nav>
-<!-- IDEA: product 1 -->
-  <div class="col">
+        <!-- Product 2 -->
+        <div class="col">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
             <div class="card-body">
-              <p class="card-text">Jojo's Wellness Products (Coming Soon)
-              </p>
+              <p class="card-text">Jojo's Wellness Products (Coming Soon)</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">Shop</button>
-
-
+                </div>
               </div>
             </div>
           </div>
         </div>
-    <div class="container-fluid">
 
-    </div>
-  </nav>
-<!-- IDEA: product 1 -->
-  <div class="col">
+        <!-- Product 3 -->
+        <div class="col">
           <div class="card shadow-sm">
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
             <div class="card-body">
-              <p class="card-text">Abstract Artwork
-              </p>
+              <p class="card-text">Abstract Artwork</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">Browse</button>
-
-
+                </div>
               </div>
             </div>
           </div>
         </div>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  </head>
-  <body>
+
+      </div>
+    </div>
+
+    <!-- Bootstrap JavaScript Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
 </html>
